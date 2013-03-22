@@ -15,7 +15,7 @@ include $$(BUILD_PREBUILT)
 endef
 
 prebuilt_ducati_vendor_bins := \
-	etc/firmware/ducati-m3.bin 
+	etc/firmware/ducati-m3-core0.xem3
 
 prebuilt_ducati_modules := \
   $(foreach _file, $(prebuilt_ducati_vendor_bins),\
